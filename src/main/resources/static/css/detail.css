@@ -1,0 +1,147 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.header-general-background {
+    background: #000000bf;
+    padding: 90px 0;
+
+}
+
+.header-general-background * {
+    text-align: center;
+}
+
+.property-info-block-inline * {
+    box-sizing: border-box;
+}
+
+.property-price {
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 2px 20px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+
+.property-status {
+    padding: 10px 20px;
+    color: #fff;
+    position: relative;
+    top: -2px;
+    background-color: #008080 !important;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+
+.header-general-background h2 {
+    color: #fff;
+    position: relative;
+    max-height: 48px;
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 15px auto;
+}
+
+.property-location span {
+    color: #eee;
+    font-family: 'Barlow', sans-serif;
+}
+
+.property-location i {
+    color: #fb6a19;
+}
+
+.detail-info i {
+    color: #fb6a19;
+}
+
+.agent-info i {
+    color: #fb6a19;
+}
+.color-icon{
+    color: #fb6a19;
+}
+.current img {
+    filter: brightness(30%);
+}
+
+.ere-heading-style2 h2 {
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 21px;
+}
+
+.ere-heading-style2 h2:after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background-color: #008080;
+    margin-left: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.nav-tabs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    border-bottom: none;
+    background-color: #222;
+}
+
+
+
+.collapse-tab {
+    display: block;
+
+}
+
+.nav-tabs li a {
+    margin-right: 0;
+    color: #8f8f8f;
+    padding: 19px 30px;
+    border-radius: 0;
+    background-clip: padding-box;
+    transition: all .3s;
+    font-weight: 500;
+}
+
+.nav-tabs .collapse-tab.active {
+    color: #fff;
+    background-color: #fb6a19;
+}
+
+.collapse-tab:hover {
+    color: #fff;
+    background-color: #fb6a19;
+}
+.comment-section li {
+    list-style: none; 
+}
+.comment {
+    margin: 15px 0 30px 0;
+}
+.comment-author img {
+    float: left;
+    border: 2px solid #f1f1f1;
+    padding: 2px;
+}
+.comment-content {
+    margin-left: 85px;
+}
+.comment-meta p {
+    color: #d0d0d0;
+}
+
+.comment-text {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

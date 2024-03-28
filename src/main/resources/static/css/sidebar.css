@@ -1,0 +1,67 @@
+.offcanvas-body {
+    overflow: hidden;
+}
+
+#fixed_sidebar {
+    position: fixed;
+    top: 25%;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    font-size: 40px;
+    opacity: 0.5;
+    color: white;
+    background-color: black;
+}
+
+#fixed_sidebar:hover {
+    color: 108, 117, 125;
+    background-color: #031633;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #343a40;
+    /* Màu nền tooltip */
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    /* Hiển thị ở trên nút khi hover */
+    right: 50%;
+    margin-right: -20px;
+    /* Để tooltip chính giữa nút */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#fixed_sidebar:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav-item .inpItem {
+    display: flex;
+    grid-template-columns: auto 1fr;
+    /* Chia thành 2 cột, cột thứ hai chiếm phần còn lại */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    width: 100%;
+}
+
+.inpItem .input-group {
+    flex: 1;
+    /* Phần tử con sẽ mở rộng để chiếm hết phần còn lại */
+    margin-right: 10px;
+    /* Khoảng cách giữa các phần tử */
+    margin-left: 10px;
+}
+
+.offcanvas {
+    max-width: 75%;
+}

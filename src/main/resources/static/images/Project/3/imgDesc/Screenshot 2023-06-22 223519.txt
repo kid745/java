@@ -1,0 +1,35 @@
+1. Find the Median
+
+The median of a list of numbers is essentially ts middle element
+after sorting. The same number of elements occur after it as before.
+Given a list of numbers with an odd number of elements, find the
+median?
+
+Example
+
+arr =[5,3,1,2,4]
+
+The sorted array ar?” = [1,2,3,4,5]. The middle element and the
+median is 3.
+
+Function Description
+
+Complete the findlVedian function in the editor below.
+
+findMedian has the following parameter(s):
+
++ int arr[n]:an unsorted array of integers
+Returns
+*  int the median of the array
+
+Input Format
+
+The first line contains the integer ñ, the size of a?'T.
+
+The second line contains †u space-separated integers ar|]
+Constraints
+
+* 1<z<1000001
+* œisodd
+
+» —10000 < azr[i] < 10000

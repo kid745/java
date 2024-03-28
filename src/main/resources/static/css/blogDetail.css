@@ -1,0 +1,13 @@
+.blog-name {
+    display: table;
+    font-size: 24px;
+    margin: 0 auto 5px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", Tahoma, sans-serif;
+    color: #690;
+}
+
+.blog-info {
+    color: gray;
+    font-size: 16px;
+}
