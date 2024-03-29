@@ -1,0 +1,74 @@
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card-img-top:hover+.overlay {
+    opacity: 1;
+}
+
+.overlay .button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.overlay button {
+    margin: 5px;
+    position: relative;
+}
+
+.overlay button::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.overlay button:hover::before {
+    opacity: 1;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.card-footer p {
+    position: relative;
+    cursor: pointer;
+}
+
+.card-footer p::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.card-footer p:hover::before {
+    opacity: 1;
+}
+
+.footer a {
+    color: #868990;
+    font-size: 17px;
+}

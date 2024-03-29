@@ -1,0 +1,45 @@
+.blogList {
+    overflow: auto;
+}
+
+.blogList .card {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 480px;
+    height: 500px;
+    max-width: 32%;
+    margin: 10px 0.5%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.blogList .card img {
+    object-fit: cover;
+    height: 300px
+}
+
+.card-text-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width: 991.98px) {
+    .blogList .card {
+        margin: 10px 1%;
+        max-width: 48%;
+        height: auto;
+        /* Hiển thị 2 cột trên màn hình medium */
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 767.98px) {
+    .blogList .card {
+        margin: 10px 0;
+        max-width: 97%;
+        height: auto;
+        /* Hiển thị 1 cột trên màn hình small */
+    }
+}

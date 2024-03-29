@@ -1,0 +1,154 @@
+#divProject {
+    overflow: auto;
+}
+
+#divProject .card {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 480px;
+    height: 510px;
+    max-width: 32%;
+    margin: 10px 0.5%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+#divProject .card img {
+    object-fit: cover;
+    height: 250px
+}
+
+.card-action {
+    position: relative;
+    float: right;
+    margin-top: -25px;
+    margin-right: 20px;
+    margin-left: auto;
+    z-index: 2;
+    color: #17a2b8;
+    background: #fff;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card-action:hover {
+    color: #fff;
+    background: #17a2b8;
+    -webkit-animation: pulse 1.5s infinite;
+}
+
+.btn-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 100%;
+    padding: 15px;
+    border: none;
+    color: #17a2b8;
+    background: #fff;
+}
+
+.btn-circle:hover {
+    color: #fff;
+    background: #17a2b8;
+    -webkit-animation: pulse 1.5s infinite;
+}
+
+.blogList {
+    overflow: auto;
+}
+
+.blogList .card {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 480px;
+    height: 510px;
+    max-width: 32%;
+    margin: 10px 0.5%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.blogList .card img {
+    object-fit: cover;
+    height: 300px
+}
+
+.card-text-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width: 991.98px) {
+    .blogList .card {
+        margin: 10px 1%;
+        max-width: 48%;
+        height: auto;
+        /* Hiển thị 2 cột trên màn hình medium */
+    }
+    #divProject .card {
+        margin: 10px 1%;
+        max-width: 48%;
+        height: auto;
+        /* Hiển thị 2 cột trên màn hình medium */
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 767.98px) {
+    .blogList .card {
+        margin: 10px 0;
+        max-width: 97%;
+        height: auto;
+        /* Hiển thị 1 cột trên màn hình small */
+    }
+    #divProject .card {
+        margin: 10px 0;
+        max-width: 97%;
+        height: auto;
+        /* Hiển thị 1 cột trên màn hình small */
+    }
+}
+
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    height: 800px;
+}
+.ribbon2 {
+ width: 60px;
+ padding: 10px 0;
+ position: absolute;
+ top: -6px;
+ left: 25px;
+ text-align: center;
+ border-top-left-radius: 3px;
+ background: #F47530;
+}
+.ribbon2:before {
+ height: 0;
+ width: 0;
+ right: -5.5px;
+ top: 0.1px;
+ border-bottom: 6px solid #8D5A20;
+ border-right: 6px solid transparent;
+}
+.ribbon2:before, .ribbon2:after {
+  content: "";
+  position: absolute;
+}
+.ribbon2:after {
+  height: 0;
+  width: 0;
+  bottom: -29.5px;
+  left: 0;
+  border-left: 30px solid #F47530;
+  border-right: 30px solid #F47530;
+  border-bottom: 30px solid transparent;
+}

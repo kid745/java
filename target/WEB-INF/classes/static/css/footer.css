@@ -1,0 +1,8 @@
+.footer-bs a {
+    color: #ccc; /* Màu chữ cho thẻ a có class text-muted */
+    text-decoration: none; /* Loại bỏ đường gạch chân mặc định */
+}
+
+.footer-bs a:hover {
+    color: #fff; /* Màu chữ khi di chuột qua thẻ a */
+}
